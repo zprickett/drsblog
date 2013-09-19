@@ -330,16 +330,12 @@ function contango_footer_init() {
 	}
 
 ?>
-<div class="grid_5 alpha">
+<div class="grid_10 alpha">
   <div class="copyright_inside">
     <?php echo $contango_copyright_code; ?>
   </div>
 </div>
-<div class="grid_11 omega">
-  <div class="credit_inside">
-    <?php printf( __( '%s Theme by', 'contango' ), $contango_theme_data['Name'] ); ?> <a href="<?php echo $contango_theme_data['AuthorURI']; ?>" title="DesignOrbital">DesignOrbital</a> &sdot; <a href="http://wordpress.org/" title="WordPress">WordPress</a>
-  </div>
-</div>
+
 <?php	
 }
 

@@ -17,10 +17,3 @@
       </div>
     </div>     
   </div>
-  
-  
-  <div class="container_16 clearfix">
-    <div id="nav" class="grid_16">
-      <?php get_template_part( 'primary', 'menu' ); ?>
-    </div>
-  </div>
