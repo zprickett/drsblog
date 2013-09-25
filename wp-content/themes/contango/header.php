@@ -5,6 +5,8 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" media="all" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<link rel="shortcut icon" href="http://blog.dataresource.com.au/favicon.ico" type="image/vnd.microsoft.icon"/>
+<link rel="icon" href="http://blog.dataresource.com.au/favicon.ico" type="image/x-ico"/>
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>

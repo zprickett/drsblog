@@ -23,6 +23,8 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
  *
 ------------------------ */
 
+/* Reference color #467da2 */
+
 /**
 |------------------------
 | =Reset default browser CSS. http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain)
@@ -126,6 +128,9 @@ body {
 	font-size: 34px;
 	font-weight: bold; 
 	line-height: 34px; 
+}
+#headimg a:visited{
+	color:#467da2;
 }
 
 #headimg #logo-text .site-description {
