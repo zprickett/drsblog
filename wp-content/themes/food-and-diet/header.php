@@ -47,7 +47,7 @@
         ?>
         <hgroup class="clear" <?php print $header_background; ?> >
             <h1>DataReSource Information Center</h1>
-            <p>Description of the Information Center and why it is relevant</p>
+            <p>Below is a list or relevant oil and gas data articles by DataReSource.</p>
         </hgroup>   
         
         
