@@ -431,11 +431,11 @@ img.wp-post-image {
 article.format-quote .entry-content blockquote,
 .widget-area .widget,
 .entry-meta{
-	font-size: 0.8em;
-	background-color: #E2E2E2;
-	-moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
+	font-size: 1.0em;
+	background-color: #fcfcfc;
+	-moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
     display: inline-block;
     padding: 4px;
     text-shadow: none;
