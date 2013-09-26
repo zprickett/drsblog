@@ -60,7 +60,7 @@ h5,
 h6 {
 	clear: both;
     line-height: 1.3;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 h1{font-size: 48px;}
 h1 a, h2 a, h3 a, h4 a, nav a {
@@ -314,7 +314,7 @@ article.format-link header,
 .comment-content th ,
 .page-links,
 .more-link{
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .previous-image .meta-nav,
 .next-image .meta-nav,
@@ -778,7 +778,7 @@ a img:hover,
 	padding: 6px 10px 6px 0;
 }
 .site-content article {
-    background: url("images/article-end.png") no-repeat center bottom;
+	border-bottom: 1px solid #eee;
 	padding-bottom: 30px;
 	word-wrap: break-word;
 	-webkit-hyphens: auto;
@@ -965,10 +965,12 @@ article.sticky,
 }
 .widget-area .widget li{
     margin-bottom: 2px;
+    padding-left: 5px;
 }
 
 .widget-area .widget .widget-title{
-    font-size: 1.5em;
+    font-size: 1.8em;
+    margin-bottom:20px;
 }
 
 /* =Footer widgets
