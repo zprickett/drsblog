@@ -882,7 +882,7 @@ article.format-quote .entry-content blockquote{
 	margin-right: 1.5rem;
 }
 /* Disqus */
-.disqus_thread{
+#disqus_thread{
 	background: #fcfcfc;
 	margin-bottom: 10px;
 	padding: 15px;
