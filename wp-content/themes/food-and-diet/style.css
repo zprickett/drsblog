@@ -133,14 +133,13 @@ img {
 input[type="button"],
 input[type="reset"],
 input[type="submit"]{
-    background-color: #EF4D3C;
-    border: 1px solid #EF4D3C;
+    background-color: #467da2;
+    border: 1px solid #467da2;
     padding: 2px 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    border-radius: 5px;
+    border-radius: 2px;
     color: #FFF;
-    text-shadow: 1px 1px #A91E0E;
 }
 
 /* Assistive text */
