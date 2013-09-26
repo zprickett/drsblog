@@ -192,6 +192,10 @@ footer .screen-reader-text,
     font-weight: normal;
     font-family: "ff-scala-web-1","ff-scala-web-2","Georgia",sans-serif;
 }
+#masthead .home-link{
+	color: #333;
+	float: right;
+}
 
 #masthead a { text-decoration: none; }
 #masthead hgroup a{ text-decoration: none; color: #333;}
@@ -778,7 +782,7 @@ a img:hover,
 	padding: 6px 10px 6px 0;
 }
 .site-content article {
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid rgb(204, 204, 204);
 	padding-bottom: 30px;
 	word-wrap: break-word;
 	-webkit-hyphens: auto;

@@ -36,8 +36,8 @@
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
         <?php echo fd_theme_options( 'logo' ); ?>
-        <span style="float:right">
-            <a href="www.dataresource.com.au">DataReSource</a>
+        <span class="home-link">
+            <a href="www.dataresource.com.au">Home Page</a>
         </span>
 
         <!-- #site-navigation -->
