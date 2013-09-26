@@ -795,7 +795,9 @@ a img:hover,
     margin-bottom: 1em;
     background: #fcfcfc;
 	padding: 15px;
-	border-radius: 4px;
+	-webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
 	-moz-box-shadow: 0 1px 6px rgba(0,0,0,.9);
 	-webkit-box-shadow: 0 1px 6px rgba(0,0,0,.9);
 	box-shadow: 0 1px 6px rgba(0,0,0,.9);
@@ -886,6 +888,9 @@ article.format-quote .entry-content blockquote{
 	background: #fcfcfc;
 	margin-bottom: 10px;
 	padding: 15px;
+	-webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
 	-moz-box-shadow: 0 1px 4px rgba(176, 176, 178, 0.9);
 	-webkit-box-shadow: 0 1px 4px rgba(176, 176, 178, 0.9);
 	box-shadow: 0 1px 4px rgba(176, 176, 178, 0.9);
