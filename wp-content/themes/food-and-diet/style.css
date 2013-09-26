@@ -25,6 +25,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     text-rendering: optimizeLegibility;
     color: #333;
+    background: url(images/rig.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
 }
 
 ol,
