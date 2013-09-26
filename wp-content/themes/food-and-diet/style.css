@@ -22,12 +22,10 @@ p {
     margin: 0 0 24px;
 }
 body {
+	line-height: 1.4;
     font-family: 'Open Sans', sans-serif;
     text-rendering: optimizeLegibility;
-    font-size: 14px;
-	font-weight: 400;
-	line-height: 1.6em;
-	color: #656565;
+    color: #333;
 }
 
 ol,
@@ -190,7 +188,7 @@ footer .screen-reader-text,
 
 #masthead h1{
     text-align: left;
-    font-size: 45px;
+    font-size: 4.5em;
     line-height: 100%;
     font-weight: normal;
     font-family: "ff-scala-web-1","ff-scala-web-2","Georgia",sans-serif;
@@ -419,7 +417,7 @@ img.wp-post-image {
     margin: 0 0 5px;
     font-size: 31.5px;
     font-weight: 400;
-    text-shadow: none;
+    text-shadow: 2px 2px #fff;
 }
 .entry-title a{
     color: #333;
@@ -434,14 +432,14 @@ img.wp-post-image {
 article.format-quote .entry-content blockquote,
 .widget-area .widget,
 .entry-meta{
-	font-size: 1.2em;
+	font-size: 0.8em;
 	background-color: #E2E2E2;
 	-moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
     display: inline-block;
     padding: 4px;
-    text-shadow: none;
+    text-shadow: 1px 1px #FAFAFA;
     margin-bottom: 10px;
 }
 .entry-meta h1{
@@ -782,7 +780,7 @@ a img:hover,
 	padding: 6px 10px 6px 0;
 }
 .site-content article {
-    border-bottom: 1px solid #eee;
+    background: url("images/article-end.png") no-repeat center bottom;
 	padding-bottom: 30px;
 	word-wrap: break-word;
 	-webkit-hyphens: auto;
@@ -804,7 +802,7 @@ article.format-link header{
 	background-color: #E2E2E2;
 	border-left: 10px solid #467da2;
     margin-bottom: 10px;
-    text-shadow: none;
+    text-shadow: 1px 1px #FAFAFA;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -820,7 +818,7 @@ article.format-aside .aside .entry-content{
 	background-color: #E2E2E2;
 	border-left: 22px solid #467da2;
     margin-bottom: 10px;
-    text-shadow: none;
+    text-shadow: 1px 1px #FAFAFA;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -969,12 +967,10 @@ article.sticky,
 }
 .widget-area .widget li{
     margin-bottom: 2px;
-    padding-left: 5px;
 }
 
 .widget-area .widget .widget-title{
-    font-size: 2.0em;
-    margin-bottom: 10px;
+    font-size: 1.5em;
 }
 
 /* =Footer widgets
