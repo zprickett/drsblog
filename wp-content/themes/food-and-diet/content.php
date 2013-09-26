@@ -23,11 +23,7 @@
 				<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'food_diet' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
 			</h1>
 			<?php endif; // is_single() ?>
-			<?php if ( comments_open() ) : ?>
-				<div class="comments-link">
-					<?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a reply', 'food_diet' ) . '</span>', __( '1 Reply', 'food_diet' ), __( '% Replies', 'food_diet' ) ); ?>
-				</div><!-- .comments-link -->
-			<?php endif; // comments_open() ?>
+			
 		</header><!-- .entry-header -->
 
 		<?php if ( is_search() ) : // Only display Excerpts for Search ?>
@@ -41,7 +37,11 @@
             <div style="clear:both;"></div>
 		</div><!-- .entry-content -->
 		<?php endif; ?>
-
+		<?php if ( comments_open() ) : ?>
+				<div class="comments-link">
+					<?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a reply', 'food_diet' ) . '</span>', __( '1 Reply', 'food_diet' ), __( '% Replies', 'food_diet' ) ); ?>
+				</div><!-- .comments-link -->
+			<?php endif; // comments_open() ?>
 		<footer class="entry-meta">
             <?php fd_entry_meta(); ?>
             <?php edit_post_link( __( 'Edit', 'food_diet' ), '<span class="edit-link">', '</span>' ); ?>

@@ -36,18 +36,25 @@
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
         <?php echo fd_theme_options( 'logo' ); ?>
+        <!-->
         <nav id="site-navigation" class="main-navigation" role="navigation">
 			<h3 class="menu-toggle"><?php _e( 'Menu', 'food_diet' ); ?></h3>
 			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'food_diet' ); ?>"><?php _e( 'Skip to content', 'food_diet' ); ?></a>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
+		</nav>
+        </!-->
+        <!-- #site-navigation -->
         <?php 
             $header_background = fd_theme_options('header_background'); 
-        ?>    
-		<hgroup class="clear" <?php print $header_background; ?> >
+        ?>
+        <!-->
+        <hgroup class="clear" <?php print $header_background; ?> >
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><h1 class="site-title" <?php $fd_title = fd_theme_options( 'title' ); if( $fd_title['animate'] ) echo 'style="visibility: hidden;"'; ?> ><?php bloginfo( 'name' ); ?></h1></a>
-			<h2 class="site-description" <?php $fd_tagline = fd_theme_options( 'tagline' ); if( $fd_tagline['animate'] ) echo 'style="visibility: hidden;"'; ?> ><?php bloginfo( 'description' ); ?></h2>
+            <h2 class="site-description" <?php $fd_tagline = fd_theme_options( 'tagline' ); if( $fd_tagline['animate'] ) echo 'style="visibility: hidden;"'; ?> ><?php bloginfo( 'description' ); ?></h2>
         </hgroup>
+        </!-->    
+        <h1>DataReSource Information Center</h1>
+		<p>Description of the Information Center and why it is relevant</p>
         
         <div class="clear"></div>
     </header><!-- #masthead -->
