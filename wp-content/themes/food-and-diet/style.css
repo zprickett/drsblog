@@ -881,6 +881,14 @@ article.format-quote .entry-content blockquote{
 	margin-right: 21px;
 	margin-right: 1.5rem;
 }
+/* Disqus */
+.disqus_thread{
+	background: #fcfcfc;
+	margin-bottom: 10px;
+	-moz-box-shadow: 0 1px 4px rgba(176, 176, 178, 0.9);
+	-webkit-box-shadow: 0 1px 4px rgba(176, 176, 178, 0.9);
+	box-shadow: 0 1px 4px rgba(176, 176, 178, 0.9);
+}
 
 /* =Archives
 -------------------------------------------------------------- */
