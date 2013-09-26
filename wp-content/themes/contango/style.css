@@ -325,7 +325,7 @@ address {
 
 ins {
 	color: #f5f5f5;
-	background: #7ab80e;
+	background: #467da2;
 	text-decoration: none;
 }
 
@@ -356,7 +356,7 @@ blockquote {
 	line-height: 22px;
 	padding: 5px 0 5px 15px;
 	margin: 20px 0;
-	border-left: solid 5px #7ab80e;
+	border-left: solid 5px #467da2;
 	
 }
 
@@ -389,7 +389,7 @@ blockquote cite a {
 
 a,
 a:visited {
-	color: #7ab80e;
+	color: #467da2;
 	text-decoration: none;
 }
 
@@ -500,7 +500,7 @@ caption {
 
 thead, th {
 	color: #fff;
-	background: #7ab80e;
+	background: #467da2;
 	text-align: left;
 }
 
@@ -583,8 +583,8 @@ input[type="button"] {
 	margin: 0 0 20px 0;
 	padding: 6px 12px;	
 	color: #fff;	
-	background-color: #7ab80e;	
-	border: 1px solid #7ab80e;
+	background-color: #467da2;	
+	border: 1px solid #467da2;
 	text-decoration: none;
 	border-radius: 2px;
 	moz-border-radius: 2px;
@@ -1065,13 +1065,13 @@ dl.gallery-item img {
 }
 
 .entry-meta-featured {
-	color: #7ab80e;
+	color: #467da2;
 }
 
 .entry-date {
 	display: block;
 	text-align: center;
-	background-color: #7ab80e;
+	background-color: #467da2;
 	padding: 8px 0;
 	color: #fff;
 	-moz-border-radius: 3px;
@@ -1101,7 +1101,7 @@ dl.gallery-item img {
 .cat-links a:visited,
 .tag-links a,
 .tag-links a:visited {
-	color: #7ab80e;
+	color: #467da2;
 }
 
 .cat-links a:hover,
@@ -1363,7 +1363,7 @@ a.more-link:visited {
 }
 
 .commentlist li.bypostauthor {
-	border-bottom: 2px solid #7ab80e;
+	border-bottom: 2px solid #467da2;
 }
 
 .commentlist li.pingback p {
@@ -1668,7 +1668,7 @@ p.nocomments {
 .menu ul a:focus,
 .menu ul a:hover,
 .menu ul a:active {
-	color: #7ab80e;	
+	color: #467da2;	
 }
 
 /** Global List Hover */
