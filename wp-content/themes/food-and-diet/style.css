@@ -976,6 +976,9 @@ article.sticky,
 .widget-area .widget{
     display: block;
     padding: 10px;
+    -moz-box-shadow: 0 1px 1px rgba(176, 176, 178, 0.9);
+	-webkit-box-shadow: 0 1px 1px rgba(176, 176, 178, 0.9);
+	box-shadow: 0 1px 1px rgba(176, 176, 178, 0.9);
 }
 .widget-area .widget li{
     margin-bottom: 2px;
