@@ -1,0 +1,5 @@
+=== Sturd Theme ===
+Theme Name: Sturd.Theme URI: http://www.freewpthemes.in/sturd-free-wordpress-theme/Description: A lightweight, 2 column, widget ready, SEO optimized, fast loading, easy to customize wordpress theme for blogs.Version: 1.0.5Author: Saeed SalamAuthor URI: http://www.freewpthemes.in/Tags: white, gray, black, light, two-columns, right-sidebar, fixed-width, threaded-comments, theme-options
+License: GNU General Public License v2.0License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Features:2 Column Fixed-width layoutTheme Option PageSupports Post Thumbnails (use 590px wide and 230px height images)Threaded CommentsCustom Menus (Top-level only)Widgets Ready SidebarTheme Option Panel built using the Options Framework developed by Devin Price (http://www.wptheming.com) - GPL LicenseUsing a customized form of Option Framework, a big thanks to Authentic Themes (htttp://www.authenticthemes.com)
+Sturd WordPress Theme, Copyright (C) 2013 FREEWPTHEMES.INSturd WordPress Theme is licensed under the GPL.

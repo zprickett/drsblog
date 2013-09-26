@@ -1,0 +1,5 @@
+<?php get_header(); ?>
+	<div id="error-page">
+		<div class="error-title"><?php _e( 'boom, you are lost!', 'sturd' ); ?></div>
+		<div class="error-desc"><?php _e( 'The page you were looking for is not here. But don&rsquo;t worry, You can', 'sturd' ); ?>
+			<ol>				<li><?php _e( 'Browse our', 'sturd' ); ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php _e( 'Home Page', 'sturd' ); ?></a> <?php _e( 'to read the latest posts', 'sturd' ); ?></li>				<li><?php _e( 'Search our entire site by using the form below', 'sturd' ); ?></li>			</ol>			<form role="search" method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">				<div class="e-search">				<input type="text" value="" name="s" id="s" />				<input type="submit" id="searchsubmit" value="Search" />				</div>			</form>		</div>	</div><?php get_footer(); ?>
