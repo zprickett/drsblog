@@ -574,7 +574,6 @@ article.format-quote .entry-content blockquote,
 .comment-content ul li:before,
 .entry-content li ul li:before,
 .comment-content li ul li:before{
-    content: "\00a7"; 
 	color: #467da2; 
     font-weight: bolder;
     margin-right: 5px;  
