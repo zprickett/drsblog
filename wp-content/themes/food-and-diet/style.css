@@ -181,11 +181,8 @@ footer .screen-reader-text,
 }
 
 #masthead  hgroup{ 
-    border-style: solid;
-    border-width: 1px 0px;
-    border-color: rgb(204, 204, 204);
     padding: 30px 30px 30px 0px;
-    margin: 30px 0px;
+    margin: 15px 0px;
     clear: both;
 
 }
@@ -197,7 +194,7 @@ footer .screen-reader-text,
     font-weight: normal;
     font-family: "ff-scala-web-1","ff-scala-web-2","Georgia",sans-serif;
 }
-#masthead .home-link{
+#masthead .home-link a{
 	color: #333;
 	float: right;
 }
@@ -341,6 +338,8 @@ article.format-link header,
     border-radius: 4px;
     color: #FFF;
 }
+
+/* Content */
 
 /* Footer */
 #colophon{
@@ -794,6 +793,12 @@ a img:hover,
 	-moz-hyphens: auto;
 	hyphens: auto;
     margin-bottom: 1em;
+    background: #fcfcfc;
+	padding: 15px;
+	border-radius: 4px;
+	-moz-box-shadow: 0 1px 8px rgba(0,0,0,.9);
+	-webkit-box-shadow: 0 1px 8px rgba(0,0,0,.9);
+	box-shadow: 0 1px 8px rgba(0,0,0,.9);
 }
 .page-links {
 	clear: both;
@@ -978,8 +983,8 @@ article.sticky,
 }
 
 .widget-area .widget .widget-title{
-    font-size: 1.8em;
-    margin-bottom:20px;
+    font-size: 1.5em;
+    margin-bottom:10px;
 }
 
 /* =Footer widgets
