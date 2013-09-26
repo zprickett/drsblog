@@ -22,10 +22,12 @@ p {
     margin: 0 0 24px;
 }
 body {
-	line-height: 1.4;
     font-family: 'Open Sans', sans-serif;
     text-rendering: optimizeLegibility;
-    color: #333;
+    font-size: 14px;
+	font-weight: 400;
+	line-height: 1.6em;
+	color: #656565;
 }
 
 ol,
@@ -433,7 +435,6 @@ article.format-quote .entry-content blockquote,
 .widget-area .widget,
 .entry-meta{
 	font-size: 0.8em;
-	background-color: #E2E2E2;
 	-moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
@@ -441,6 +442,9 @@ article.format-quote .entry-content blockquote,
     padding: 4px;
     text-shadow: 1px 1px #FAFAFA;
     margin-bottom: 10px;
+    font-weight: 600;
+letter-spacing: -1px;
+margin-bottom: 20px;
 }
 .entry-meta h1{
     font-size: 1.5em;
@@ -780,7 +784,7 @@ a img:hover,
 	padding: 6px 10px 6px 0;
 }
 .site-content article {
-    background: url("images/article-end.png") no-repeat center bottom;
+    border-bottom: 1px solid #eee;
 	padding-bottom: 30px;
 	word-wrap: break-word;
 	-webkit-hyphens: auto;
