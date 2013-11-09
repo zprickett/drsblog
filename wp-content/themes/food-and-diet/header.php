@@ -42,7 +42,6 @@
         ?>
         <hgroup class="clear inner-header" <?php print $header_background; ?> >
             <h1>DataReSource Information Center <a href="http://www.dataresource.com.au" style="float:right"><?php echo fd_theme_options( 'logo' ); ?></a></h1>
-            <p style="margin-left;10px">Below is a list or relevant oil and gas data articles by DataReSource.</p> 
         </hgroup>   
         
         
