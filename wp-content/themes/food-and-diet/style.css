@@ -25,7 +25,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     text-rendering: optimizeLegibility;
     color: #333;
-    background: url(images/rig.jpg) no-repeat center center fixed; 
+    background: url(images/rig.jpg); 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -253,6 +253,18 @@ footer .screen-reader-text,
 }
 .main-navigation li.current_page_item > a{
     color: #FFFFFF;
+}
+.site-header{
+	background: #fcfcfc;
+	margin-top: -20px;
+	border-bottom: 1px solid #eee;
+	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.35), 0px -1px 1px rgba(0,0,0,.15);
+	-moz-box-shadow: 0px 1px 1px rgba(0,0,0,.35), 0px -1px 1px rgba(0,0,0,.15);
+	box-shadow: 0px 1px 1px rgba(0,0,0,.35), 0px -1px 1px rgba(0,0,0,.15);
+}
+.inner-header{
+	max-width: 1170px;
+	margin: 20px auto 0 auto;
 }
 
 /* Submenus */

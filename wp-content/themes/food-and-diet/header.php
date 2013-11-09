@@ -35,22 +35,19 @@
 <body <?php body_class(); ?>>
 <?php include_once("analyticstracking.php") ?>
 <header id="masthead" class="site-header" role="banner">
-        <?php// echo fd_theme_options( 'logo' ); ?>
 
         <!-- #site-navigation -->
         <?php 
             $header_background = fd_theme_options('header_background'); 
         ?>
-        <hgroup class="clear" <?php print $header_background; ?> >
-            <h1>DataReSource Information Center</h1>
-            <p>Below is a list or relevant oil and gas data articles by DataReSource.</p>
+        <hgroup class="clear inner-header" <?php print $header_background; ?> >
+            <h1>DataReSource Information Center <a href="http://www.dataresource.com.au" style="float:right"><?php echo fd_theme_options( 'logo' ); ?></a></h1>
+            <p style="margin-left;10px">Below is a list or relevant oil and gas data articles by DataReSource.</p> 
         </hgroup>   
         
         
         <div class="clear"></div>
 </header><!-- #masthead -->
 <div id="page" class="hfeed site">
-    <span class="home-link">
-        <a href="www.dataresource.com.au">Home Page</a>
-    </span>
+   
 	<div id="main" class="wrapper">
