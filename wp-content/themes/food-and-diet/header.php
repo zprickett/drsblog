@@ -48,5 +48,6 @@
         <div class="clear"></div>
 </header><!-- #masthead -->
 <div id="page" class="hfeed site">
+    <span style="padding:20px"></span>
    
 	<div id="main" class="wrapper">

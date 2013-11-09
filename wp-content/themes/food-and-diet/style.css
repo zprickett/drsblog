@@ -25,7 +25,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     text-rendering: optimizeLegibility;
     color: #333;
-    background: url(http://subtlepatterns.com/patterns/texturetastic_gray.png) repeat;
+    background: url(http://subtlepatterns.com/patterns/subtlenet2.png);
     /*background: url(images/rig.jpg) no-repeat center center fixed;*/ 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
@@ -190,7 +190,7 @@ footer .screen-reader-text,
 
 #masthead h1{
     text-align: left;
-    font-size: 4.0em;
+    font-size: 3.5em;
     line-height: 100%;
     font-weight: normal;
     font-family: "ff-scala-web-1","ff-scala-web-2","Georgia",sans-serif;
@@ -265,7 +265,7 @@ footer .screen-reader-text,
 }
 .inner-header{
 	max-width: 1170px;
-	margin: 20px auto 0 auto;
+	margin: 20px auto 0 auto !important;
 }
 
 /* Submenus */
@@ -434,7 +434,7 @@ img.wp-post-image {
 
 .entry-title{
     color: #333;
-    margin: 0 0 10px;
+    margin: 0 0 20px;
     font-size: 2.2em;
     font-weight: 400;
     text-shadow: none;
@@ -480,6 +480,7 @@ article.format-quote .entry-content blockquote,
 .mu_register {
 	line-height: 1.714285714;
     clear:both;
+    margin-bottom: 20px;
 }
 .entry-content h1,
 .comment-content h1,
