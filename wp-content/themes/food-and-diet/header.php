@@ -34,8 +34,7 @@
 
 <body <?php body_class(); ?>>
 <?php include_once("analyticstracking.php") ?>
-<div id="page" class="hfeed site">
-	<header id="masthead" class="site-header" role="banner">
+<header id="masthead" class="site-header" role="banner">
         <?php echo fd_theme_options( 'logo' ); ?>
         <span class="home-link">
             <a href="www.dataresource.com.au">Home Page</a>
@@ -52,6 +51,7 @@
         
         
         <div class="clear"></div>
-    </header><!-- #masthead -->
+</header><!-- #masthead -->
+<div id="page" class="hfeed site">
 
 	<div id="main" class="wrapper">

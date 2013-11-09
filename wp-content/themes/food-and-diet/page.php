@@ -1,12 +1,4 @@
 <?php
-/**
- * The template for displaying all pages.
- *
- * @package CodePeople
- * @subpackage Food_Diet
- * @since Food & Diet 1.0.1
- *
- */
 
 get_header(); ?>
 
